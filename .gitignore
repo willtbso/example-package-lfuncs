@@ -1,0 +1,3 @@
+build/*
+dist/*
+example_lfuncs.egg-info/*
