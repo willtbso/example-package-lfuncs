@@ -1,5 +1,7 @@
 # Example package for teaching pip usage with Python
 
+[![Build Status](https://travis-ci.org/diging-training/example-package-lfuncs.svg?branch=master)](https://travis-ci.org/diging-training/example-package-lfuncs)
+
 This package contains a module `lfuncs` that has the following functions:
 
 - `find_startswith_in_list(prefix, list)` given a prefix and a list, this functions will return a list with all the elements in provided list that start with the provided prefix. The function assumes prefix and all list elements are strings.
