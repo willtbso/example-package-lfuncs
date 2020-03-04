@@ -23,7 +23,7 @@ def split_lists(olist, prefix):
     list1 = []
     list2 = []
     for e in olist:
-        if e.startswith(prefix + " "):
+        if e.startswith(prefix):
             list1.append(e)
         else:
             list2.append(e)
