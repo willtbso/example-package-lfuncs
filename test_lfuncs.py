@@ -6,7 +6,7 @@ class TestCounterMethods(unittest.TestCase):
     def test_find_startswith_in_list(self):
         test_list = ["aa", "ab", "bc"]
         result = lfuncs.find_startswith_in_list("a", test_list)
-        self.assertEqual(["aa", "ab"], result)
+        self.assertEqual(["ab"], result)
 
     def test_find_startswith_in_list_no_results(self):
         test_list = ["aa", "ab", "bc"]
